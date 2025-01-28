@@ -1,6 +1,6 @@
 # Task Tracker CLI
 
-A simple CLI application to manage tasks.  
+Task Tracker CLI is simple command-line interface application to manage tasks.
 Solution to the backend project from [roadmap.sh](https://roadmap.sh/projects/task-tracker).
 
 ---
