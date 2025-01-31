@@ -16,40 +16,42 @@ Solution to the backend project from [roadmap.sh](https://roadmap.sh/projects/ta
 * Clone repo  
   ` git clone https://github.com/azouny/roadmap-task-tracker-cli.git `
 
+* Navigate to the cloned repo folder in terminal or Open terminal in the cloned repo folder
+
 ## Features
 
 * ### Adding a new task
-  `task-cli add <task name>`
+  `node index add <task name>`
 
 
 * ### Updating an already existing task
-  `task-cli update <task id> <new task name>`
+  `node index update <task id> <new task name>`
 
 
 * ### Deleting an already existing task
-  `task-cli delete <task id>`
+  `node index delete <task id>`
 
 
 * ### Changing task status
   * #### Changing task status to in progress
-    `task-cli mark-in-progress <task id>`
+    `node index mark-in-progress <task id>`
 
   * #### Changing task status to done
-    `task-cli mark-done <task id>`
+    `node index mark-done <task id>`
 
 * ### List tasks
 
   * #### Listing all existing tasks
-    `task-cli list`
+    `node index list`
 
   * #### Listing all existing tasks with status "todo"
-    `task-cli list todo`
+    `node index list todo`
 
   * #### Listing all existing tasks with status "in-progress"
-    `task-cli list in-progress`
+    `node index list in-progress`
 
   * #### Listing all existing tasks with status "done"
-    `task-cli list done`
+    `node index list done`
 
 ---
 
